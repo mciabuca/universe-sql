@@ -1,8 +1,3 @@
--- Drop and recreate the database
-DROP DATABASE IF EXISTS universe;
-CREATE DATABASE universe;
-\c universe
-
 -- Create galaxy table
 CREATE TABLE galaxy (
     galaxy_id SERIAL PRIMARY KEY,
